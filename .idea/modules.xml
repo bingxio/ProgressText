@@ -2,9 +2,9 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/ProgressText.iml" filepath="$PROJECT_DIR$/ProgressText.iml" />
       <module fileurl="file://$PROJECT_DIR$/android-progress-text/android-progress-text.iml" filepath="$PROJECT_DIR$/android-progress-text/android-progress-text.iml" />
       <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
+      <module fileurl="file://$PROJECT_DIR$/progresstext.iml" filepath="$PROJECT_DIR$/progresstext.iml" />
     </modules>
   </component>
 </project>
