@@ -35,3 +35,14 @@ dependencies {
 ##### 注意
 * 这个 View 本身继承 RelativeLayout，需要设置 layout_width 才能显示
 * layout 里没有其他的属性，则需要在 Java 代码里设置
+
+#### Java
+```java
+ProgressText progressText = (ProgressText) findViewById(R.id.progressText);
+
+progressText.setHeadText("已坚持");
+progressText_a.startSetTextAnimation(12, 30);
+progressText_a.setBottomText("天");
+```
+##### 注意
+* 这个效果是 ![](https://github.com/Turaiiao/ProgressText/blob/master/img/IMG_20180207_215758.jpg)
