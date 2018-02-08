@@ -9,18 +9,18 @@
 添加依赖到项目根目录的 build.gradle
 
 ```
-	allprojects {
-		repositories {
-			...
-			maven { url 'https://www.jitpack.io' }
-		}
+allprojects {
+	repositories {
+		...
+		maven { url 'https://www.jitpack.io' }
 	}
+}
 ```
 #### 第二步
 包含此库到 ``app`` 级别的 build.gradle
 
 ```
 dependencies {
-	        compile 'com.github.Turaiiao:ProgressText:0.0.2'
-	}
+	compile 'com.github.Turaiiao:ProgressText:0.0.2'
+}
 ```
