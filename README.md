@@ -21,7 +21,7 @@ allprojects {
 
 ```
 dependencies {
-	compile 'com.github.Turaiiao:ProgressText:0.0.2'
+	compile 'com.github.Turaiiao:ProgressText:0.0.3'
 }
 ```
 ## 使用
