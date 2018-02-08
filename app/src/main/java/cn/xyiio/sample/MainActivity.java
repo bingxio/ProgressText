@@ -1,4 +1,4 @@
-package cn.xyiio.progresstext;
+package cn.xyiio.sample;
 
 import android.graphics.Color;
 import android.support.v7.app.AppCompatActivity;

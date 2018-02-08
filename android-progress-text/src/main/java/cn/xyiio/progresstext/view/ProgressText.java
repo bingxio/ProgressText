@@ -1,4 +1,4 @@
-package cn.xyiio.progresstext;
+package cn.xyiio.progresstext.view;
 
 import android.animation.ValueAnimator;
 import android.content.Context;
@@ -13,7 +13,7 @@ import cn.xyiio.progresstext.R;
 /**
  * Created by turaiiao on 18-2-7 11:21.
  * @author turaiiao
- * @version 1.0
+ * @version 0.0.3
  * @email 1171840237@qq.com
  * @url https://github.com/turaiiao/progresstext
  */
