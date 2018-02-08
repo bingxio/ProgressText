@@ -62,3 +62,5 @@ setHeadTextSize | 大小 | setStartTextSize | 大小 | setLineTextSize | 大小 
 **设置所有文字颜色**
 * setTextSizeAll(float head_size, float start_size, float end_size, float line_size, float bottom_size)  
 **设置所有文字大小**
+* startSetTextAnimation(final int start_size, final int end_size)  
+**设置 StartText 文字动画，start_size 起始大小，end_size 结束大小，注意，这个属性仅仅是指 StartText**
