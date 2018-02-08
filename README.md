@@ -56,9 +56,9 @@ setHeadTextColor | 颜色 | setStartTextColor | 颜色 | setLineTextColor | 颜�
 setHeadTextSize | 大小 | setStartTextSize | 大小 | setLineTextSize | 大小 | setEndTextSize | 大小 | setBottomTextSize | 大小
 
 ##### 其他函数
-* setTextAll(String head_text, int start_progress, int end_progress, String line_text, String bottom_text)
-**设置所有文字。注意，startText 和 EndText 是整形，表示进度
-* setTextColorAll(int head_color, int start_color, int end_color, int line_color, int bottom_color)
-**设置所有文字颜色
-* setTextSizeAll(float head_size, float start_size, float end_size, float line_size, float bottom_size)
-**设置所有文字大小
+* setTextAll(String head_text, int start_progress, int end_progress, String line_text, String bottom_text)  
+**设置所有文字，注意，startText 和 EndText 是整形，表示进度**
+* setTextColorAll(int head_color, int start_color, int end_color, int line_color, int bottom_color)  
+**设置所有文字颜色**
+* setTextSizeAll(float head_size, float start_size, float end_size, float line_size, float bottom_size)  
+**设置所有文字大小**
