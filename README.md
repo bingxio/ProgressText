@@ -52,4 +52,4 @@ HeadText | 作用 | StartText | 作用 | LineText | 作用 | EndText | 作用 | 
 ----|----|----|----|----|----|----|----|----|----
 setHeadText | 内容 | setStartText | 进度 | setLineText | 分割线 | setEndText | 进度 | setBottomText | 内容
 setHeadTextColor | 颜色 | setStartTextColor | 颜色 | setLineTextColor | 颜色 | setEndTextColor | 颜色 | setBottomTextColor | 颜色
-baz | baz | baz
+setHeadTextSize | 大小 | setStartTextSize | 大小 | setLineTextSize | 大小 | setEndTextSize | 大小 | setBottomTextSize | 大小
