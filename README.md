@@ -17,7 +17,7 @@
 	}
 ```
 #### 第二步
-包含此库到 ··app·· 级别的 build.gradle
+包含此库到 ``app`` 级别的 build.gradle
 
 ```
 dependencies {
