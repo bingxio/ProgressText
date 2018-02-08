@@ -87,7 +87,7 @@ public static int BOTTOM_TEXT_SIZE = 11;
 /* 默认分割线 */
 public static String DEFAULT_LINE_TEXT = "/";
 ```
-##### 欢迎 Star，Issues ！
+##### 欢迎 Star，Fork，Issues ！
 
 ### License
 ```
