@@ -45,4 +45,5 @@ progressText_a.startSetTextAnimation(12, 30);
 progressText_a.setBottomText("天");
 ```
 ##### 注意
-* 这个效果是 ![](https://github.com/Turaiiao/ProgressText/blob/master/img/IMG_20180207_215758.jpg)
+* ![](https://github.com/Turaiiao/ProgressText/blob/master/img/IMG_20180207_215758.jpg)
+* 这串代码效果如上图，左边的已坚持为 ``HeadText``，中间的12为 ``StartText``，分割线为 ``LineText``，右边结束的文字为 ``EndText``，最后的文字为 ``BottomText``，每一个都可以自定义颜色，字体大小。文字等
