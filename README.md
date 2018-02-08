@@ -47,9 +47,18 @@ progressText_a.setBottomText("天");
 ##### 注意
 ![](https://github.com/Turaiiao/ProgressText/blob/master/img/IMG_20180207_215758.jpg)
 * 这串代码效果如上图，左边的文字为 ``HeadText``，中间的12为 ``StartText``，分割线为 ``LineText``，右边结束的文字为 ``EndText``，最后的文字为 ``BottomText``，每一个都可以自定义颜色，字体大小。文字等
+
 ##### 全部属性
 HeadText | 作用 | StartText | 作用 | LineText | 作用 | EndText | 作用 | BottomText | 作用
 ----|----|----|----|----|----|----|----|----|----
 setHeadText | 内容 | setStartText | 进度 | setLineText | 分割线 | setEndText | 进度 | setBottomText | 内容
 setHeadTextColor | 颜色 | setStartTextColor | 颜色 | setLineTextColor | 颜色 | setEndTextColor | 颜色 | setBottomTextColor | 颜色
 setHeadTextSize | 大小 | setStartTextSize | 大小 | setLineTextSize | 大小 | setEndTextSize | 大小 | setBottomTextSize | 大小
+
+##### 其他函数
+* setTextAll(String head_text, int start_progress, int end_progress, String line_text, String bottom_text)
+**设置所有文字。注意，startText 和 EndText 是整形，表示进度
+* setTextColorAll(int head_color, int start_color, int end_color, int line_color, int bottom_color)
+**设置所有文字颜色
+* setTextSizeAll(float head_size, float start_size, float end_size, float line_size, float bottom_size)
+**设置所有文字大小
