@@ -50,6 +50,6 @@ progressText_a.setBottomText("天");
 ##### 全部属性
 HeadText | 作用 | StartText | 作用 | LineText | 作用 | EndText | 作用 | BottomText | 作用
 ----|----|----|----|----|----|----|----|----|----
-setHeadText(String text); | foo | foo
+setHeadText | 文字内容 | foo
 bar | bar | bar
 baz | baz | baz
