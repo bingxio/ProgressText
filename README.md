@@ -51,5 +51,5 @@ progressText_a.setBottomText("天");
 HeadText | 作用 | StartText | 作用 | LineText | 作用 | EndText | 作用 | BottomText | 作用
 ----|----|----|----|----|----|----|----|----|----
 setHeadText | 内容 | setStartText | 进度 | setLineText | 分割线 | setEndText | 进度 | setBottomText | 内容
-bar | bar | bar
+setHeadTextColor | 颜色 | setStartTextColor | 颜色 | setLineTextColor | 颜色 | setEndTextColor | 颜色 | setBottomTextColor | 颜色
 baz | baz | baz
