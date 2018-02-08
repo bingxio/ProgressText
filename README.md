@@ -1,6 +1,6 @@
 # ProgressText
 一个带动画效果的文字进度条  
-![DOWNLOAD DEMO APK](https://github.com/Turaiiao/ProgressText/blob/master/img/app-debug.apk)
+[DOWNLOAD DEMO APK](https://github.com/Turaiiao/ProgressText/blob/master/img/app-debug.apk)
 
 ## Demo
 ![](https://github.com/Turaiiao/ProgressText/blob/master/img/1518011152249mz2.gif)
