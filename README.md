@@ -65,7 +65,7 @@ setHeadTextSize | 大小 | setStartTextSize | 大小 | setLineTextSize | 大小 
 * startSetTextAnimation(final int start_size, final int end_size)  
 **设置 StartText 文字动画，start_size 起始大小，end_size 结束大小，注意，这个属性仅仅是指 StartText**  
 **默认：start_size 大于20动画为 1000，小于20为 2000**
-* startSetTextAnimationWithDuration(final int start_size, final int end_size, final int duration)  
+* startSetTextAnimationWithDuration(final int start_size, final int end_size, final int duration)  
 **如上，duration 为动画时间，每个数字切换的时间**  
 **默认：start_size 大于20动画为 1000，小于20为 2000**
 
