@@ -13,7 +13,7 @@ import cn.xyiio.progresstext.R;
 /**
  * Created by turaiiao on 18-2-7 11:21.
  * @author turaiiao
- * @version 0.0.3
+ * @version 0.0.4
  * @email 1171840237@qq.com
  * @url https://github.com/turaiiao/progresstext
  */
@@ -221,6 +221,80 @@ public class ProgressText extends RelativeLayout {
      */
     public void startSetTextAnimationWithDuration(final int start_size, final int end_size, final int duration) {
         ValueAnimator anim = ValueAnimator.ofInt(1, start_size);
+        anim.setDuration(duration);
+        anim.addUpdateListener(new ValueAnimator.AnimatorUpdateListener() {
+
+            @Override
+            public void onAnimationUpdate(ValueAnimator animation) {
+                int currentValue = (int) animation.getAnimatedValue();
+
+                startTextView.setText("" + currentValue);
+                endTextView.setText("" + end_size);
+            }
+        });
+        anim.start();
+    }
+
+    // version 0.0.4 add :
+    ////////////////////////////////////////////////////////////////////////////////////////////////
+
+    /**
+     * 开启文字动画，从零起
+     * @param start_size 起始文字
+     * @param end_size 结束文字
+     */
+    public void startSetTextAnimationWithNumber(final int start_size, final int end_size) {
+        if (start_size > 20)
+            STOP_MILLIS = 1000;
+        else
+            STOP_MILLIS = 2000;
+
+        ValueAnimator anim = ValueAnimator.ofInt(0, start_size);
+        anim.setDuration(STOP_MILLIS);
+        anim.addUpdateListener(new ValueAnimator.AnimatorUpdateListener() {
+
+            @Override
+            public void onAnimationUpdate(ValueAnimator animation) {
+                int currentValue = (int) animation.getAnimatedValue();
+
+                startTextView.setText("" + currentValue);
+                endTextView.setText("" + end_size);
+            }
+        });
+        anim.start();
+    }
+
+    /**
+     * 开启文字动画，从零起，自定义动画速度
+     * @param start_size 起始文字
+     * @param end_size 结束文字
+     * @param duration 动画速度
+     */
+    public void startSetTextAnimationWithNumberAndDuration(final int start_size, final int end_size, int duration) {
+        ValueAnimator anim = ValueAnimator.ofInt(0, start_size);
+        anim.setDuration(duration);
+        anim.addUpdateListener(new ValueAnimator.AnimatorUpdateListener() {
+
+            @Override
+            public void onAnimationUpdate(ValueAnimator animation) {
+                int currentValue = (int) animation.getAnimatedValue();
+
+                startTextView.setText("" + currentValue);
+                endTextView.setText("" + end_size);
+            }
+        });
+        anim.start();
+    }
+
+    /**
+     * 开启文字动画，起始文字增加动画，自定义动画速度
+     * @param start_size 起始文字
+     * @param end_size 结束文字
+     * @param add_size 增加进度
+     * @param duration 动画速度
+     */
+    public void setStartTextAddNumber(int start_size, int add_size, final int end_size, int duration) {
+        ValueAnimator anim = ValueAnimator.ofInt(0, start_size + add_size);
         anim.setDuration(duration);
         anim.addUpdateListener(new ValueAnimator.AnimatorUpdateListener() {
 
