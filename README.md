@@ -21,7 +21,7 @@ allprojects {
 
 ```
 dependencies {
-	compile 'com.github.Turaiiao:ProgressText:0.0.3'
+	compile 'com.github.Turaiiao:ProgressText:0.0.4'
 }
 ```
 ## 使用
@@ -68,6 +68,12 @@ setHeadTextSize | 大小 | setStartTextSize | 大小 | setLineTextSize | 大小 
 * startSetTextAnimationWithDuration(final int start_size, final int end_size, final int duration)  
 **如上，duration 为动画时间，每个数字切换的时间**  
 **默认：start_size 大于20动画为 1000，小于20为 2000**
+* startSetTextAnimationWithNumber(final int start_size, final int end_size)  
+**起始文字从零起的动画函数**
+* startSetTextAnimationWithNumberAndDuration(final int start_size, final int end_size, int duration)  
+**起始文字从零起的动画函数，自定义动画时间**
+* setStartTextAddNumber(int start_size, int add_size, final int end_size, int duration)
+**起始文字增加几位动画函数**
 
 ##### 可引用的静态常量
 ```java
